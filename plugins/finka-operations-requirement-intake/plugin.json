@@ -1,7 +1,0 @@
-{
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "finka-operations-requirement-intake",
-  "version": "0.1.0",
-  "description": "将翻咔和嗒哒运营想法澄清为可供产品评估的提需。",
-  "skills": "./skills/"
-}

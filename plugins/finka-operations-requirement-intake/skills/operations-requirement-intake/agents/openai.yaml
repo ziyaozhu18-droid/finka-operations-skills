@@ -1,7 +1,0 @@
-interface:
-  display_name: "运营提需澄清"
-  short_description: "帮运营补齐提需信息与产品边界"
-  default_prompt: "使用 $operations-requirement-intake 澄清这条运营需求："
-
-policy:
-  allow_implicit_invocation: true

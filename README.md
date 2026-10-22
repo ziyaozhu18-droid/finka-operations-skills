@@ -1,33 +1,25 @@
-# Finka Operations Skills
+# 运营提需助手
 
-面向运营同学的 Codex Skill 集合。目前包含：
+把一句话想法、用户反馈、活动方案或飞书文档整理为可供产品评估的提需澄清卡。它会补齐运营可回答的信息、识别边界，并把产品判断明确标为 `需产品确认`。
 
-- **运营提需澄清**：把一句话想法、用户反馈、活动方案或飞书文档整理为可供产品评估的提需澄清卡；补齐运营可回答的信息、识别边界，并标出 `需产品确认`。
+## 添加给 AI 助手
 
-## 使用范围
+将以下整段话发给你正在使用、且支持 Skills 的 AI 助手：
 
-- 嗒哒：仅基于当前可访问的飞书资料做只读核验；资料不足时会明确写为“未发现依据”。
+> 请安装并启用「运营提需助手」这个 Skill：
+> https://github.com/ziyaozhu18-droid/finka-operations-skills/tree/main/skills/operations-requirement-assistant
+> 安装完成后，请直接用它帮助我梳理运营需求；不需要再让我选择其他 Skill。
+
+安装后，直接说“帮我梳理一个运营需求”，再附上你的想法、资料或飞书链接即可。
+
+## 工作边界
+
+- 嗒哒：仅基于当前可访问的飞书资料做只读核验；资料不足时明确写为“未发现依据”。
 - 翻咔：按当前**无法发版**约束，只给出现有资源、运营流程、内容策略或人工执行范围内的方案；任何现网或产品决策不确定项均为 `需产品确认`。
-
-## 安装
-
-在 Codex CLI 中添加此 Marketplace：
-
-```bash
-codex plugin marketplace add ziyaozhu18-droid/finka-operations-skills
-```
-
-然后在 ChatGPT desktop app 的 Plugins Directory 中选择该 Marketplace，安装“运营提需澄清”。安装后请新开一个对话再使用。
 
 ## 更新
 
-运行以下命令拉取 Marketplace 的最新版本：
-
-```bash
-codex plugin marketplace upgrade finka-operations-skills
-```
-
-随后重启 ChatGPT desktop app，并新开对话。每次更新会在 GitHub 提交记录中说明原因和影响。
+当仓库出现新提交时，请将同一条“安装并启用”指令再发一次给 AI 助手，使其获取最新版 Skill。
 
 ## 反馈
 
