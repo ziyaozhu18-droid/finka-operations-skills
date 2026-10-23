@@ -1,4 +1,4 @@
-# 运营提需助手
+# 需求沟通助手
 
 把一句话想法、用户反馈、活动方案或飞书文档整理为可供产品评估的提需澄清卡。它会补齐运营可回答的信息、识别边界，并把产品判断明确标为 `需产品确认`。
 
@@ -8,8 +8,8 @@
 
 将以下整段话发给你正在使用、且支持 Skills 的 AI 助手：
 
-> 请安装并启用「运营提需助手」这个 Skill：
-> https://github.com/ziyaozhu18-droid/finka-operations-skills/tree/main/skills/operations-requirement-assistant
+> 请安装并启用「需求沟通助手」这个 Skill：
+> https://github.com/ziyaozhu18-droid/finka-operations-skills/tree/main/skills/requirement-communication-assistant
 > 安装完成后，请直接用它帮助我梳理运营需求；不需要再让我选择其他 Skill。
 
 安装后，直接说“帮我梳理一个运营需求”，再附上你的想法、资料或飞书链接即可。
